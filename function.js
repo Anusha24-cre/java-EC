@@ -58,5 +58,11 @@ function s() {
 
 
 
+//callback fucntion
 
+function x(){
 
+}
+x( function y(){
+    
+});
