@@ -67,4 +67,14 @@ x( function y(){
 
 });
 
-// 
+//first class functions
+
+var a = function (){
+    return function xyz(){
+
+    }
+}
+a();
+
+//ability to use functions as values,pass argument from another function,return from another function
+//first class citizen:ability to used like values
